@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    position: relative;
-    background: linear-gradient(35deg, #711717 0%, #08126B 100%);
-    display: flex;
+    background: linear-gradient(63.18deg, #711717 0%, #08126B 100%);
 }
-
-/*
-.calc-body {
-    width: 378px;
-    height: 521px;
-    background-color: black;
-}
-*/
