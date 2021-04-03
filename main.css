@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
-    background: linear-gradient(63.18deg, #711717 0%, #08126B 100%);
+    background-image: linear-gradient(63.18deg, #711717 0%, #08126B 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.calc-body {
+    background-color: #4F4F4F;
+    border-radius: 30px;
+    width: 22%;
+    /*height: 35%;*/
+    display: grid;
+    margin: 50px 0;
+    padding: 35px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.screen {
+    grid-row: 1 / 2;
+    font-size: 35px;
+    background-color: #333333;
+    text-align: right;
+    color: white;
+    border-radius: 30px;
+    
+}
+
+.calc-buttons {
+    grid-row: 2 / 4;
+    margin-top: 26px;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.calc-button {
+    width: 45px;
+    background-color: #c4c4c4;
+    border-radius: 15px;
+}
+
+#delete {
+    background-color: #9C0000;
+    color: white;
+}
+
+#equal {
+    background: rgba(105, 16, 69, 0.91);
 }
