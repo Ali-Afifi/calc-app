@@ -13,9 +13,8 @@ body {
 .calc-body {
     background-color: #4F4F4F;
     border-radius: 30px;
-    width: 22%;
-    min-width: 320.77px;
-    /*height: 35%;*/
+    /*width: 22%;*/
+    /*min-*/width: 250.77px;
     display: grid;
     margin: 50px 0;
     padding: 35px;
@@ -31,13 +30,17 @@ body {
     color: white;
     border-radius: 30px;
     padding-right: 10px;
-    max-width: 310.766;
+    max-width: 300.766;
+}
+
+.screen-text {
+    padding-right: 1.2px;
 }
 
 .calc-buttons {
     grid-row: 2 / 4;
     margin-top: 26px;
-    padding: 10%;
+    padding: 25.063px 25.063px 25.063px 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -53,6 +56,10 @@ body {
     border-radius: 15px;
 }
 
+.calc-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
 #delete {
     background-color: #9C0000;
     color: white;
@@ -60,4 +67,12 @@ body {
 
 #equal {
     background: rgba(105, 16, 69, 0.91);
+}
+
+#delete:hover {
+    background-color: #c70202;
+}
+
+#equal:hover {
+    background: rgba(158, 25, 105, 0.91);
 }
